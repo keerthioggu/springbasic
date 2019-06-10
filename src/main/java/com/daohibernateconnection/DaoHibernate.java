@@ -25,7 +25,11 @@ public class DaoHibernate implements DaoObj{
 		session.beginTransaction().commit();
 		session.close();
 		logger.info("exit into hibernate connection");
+
 		System.out.println("printing");
+
+		System.out.println("printed");
+
 				
 	}
 }
