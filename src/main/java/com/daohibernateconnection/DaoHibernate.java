@@ -29,6 +29,7 @@ public class DaoHibernate implements DaoObj{
 		System.out.println("printing");
 
 		System.out.println("printed");
+		
 
 				
 	}

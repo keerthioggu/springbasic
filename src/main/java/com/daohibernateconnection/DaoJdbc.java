@@ -27,7 +27,11 @@ public class DaoJdbc implements DaoObj {
 		preparedstatement.executeUpdate();
 		logger.debug("Record is inserted into test table! using jdbc");
 		logger.info("exit from saveUser:DaoJdbc");
+
 		System.out.println("commited");
+
+		System.out.println("successfully");
+
 	}
 
 }
